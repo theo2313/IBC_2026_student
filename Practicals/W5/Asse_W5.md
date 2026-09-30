@@ -33,7 +33,7 @@ print("cake is done")
 ### The purpose of this is to write pseudocode and actual code for the Fizz Buzz game.
 ### Pseudocode Script
 
-```python
+````python
 
 # for loop for going through the numbers 1 to 100
 for x in range(1, 101):
@@ -46,11 +46,12 @@ for x in range(1, 101):
     else:
         print(x)                 # not divisible by 3 or 5, so print the number
 
-```
-#!/usr/bin/env python3
+`````
+
 
 ### Python script
 # fizzbuzz loop
+````python
 for x in range(1, 100):
     if x % 15 == 0:      # divisible by both 3 and 5
         print("fizzbuzz")
@@ -60,3 +61,4 @@ for x in range(1, 100):
         print("buzz")
     else:                # not divisible by either so just print the number
         print(x)
+````
